@@ -31,12 +31,11 @@
 *.out
 *.app
 
-# build
-build/*
+# ignore all files in any directory named build
+build/
 
-# bin
-bin/*
+# ignore all files in any directory named bin
+bin/
 
-#settings
+#ignore all files in any directory named .vscode
 .vscode/
-.vscode/*.json
