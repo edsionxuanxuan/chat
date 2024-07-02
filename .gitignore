@@ -32,10 +32,10 @@
 *.app
 
 # ignore all files in any directory named build
-build/
+build/*
 
 # ignore all files in any directory named bin
-bin/
+bin/*
 
 #ignore all files in any directory named .vscode
-.vscode/
+.vscode/*
